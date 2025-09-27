@@ -33,7 +33,6 @@ export const useField = (type) => {
 
   // return all props except reset separately
   return {
-    input: { type, value, onChange },
-    reset
+    type, value, onChange
   }
 }
